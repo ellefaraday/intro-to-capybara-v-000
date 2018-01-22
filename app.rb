@@ -1,6 +1,6 @@
 class Application < Sinatra::Base
 
-  get '/greet' do
+  post '/greet' do
     erb :greet
   end
 
